@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="build/build.css">
+
+
+</head>
+<body>
+    <!-- NavBar Section Start -->
+
+    <header  class="bg-transparent fixed top-0 left-0 w-full flex items-center z-20 ">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="font-bold text-lg text-warna_4 block py-6">aditprygaa_</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="absolute right-4 lg:hidden ">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-warna_1 py-2 mx-8 group-hover:text-warna_4">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base text-warna_1 py-2 mx-8 group-hover:text-warna_4">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#portfolio" class="text-base text-warna_1 py-2 mx-8 group-hover:text-warna_4">Portfolio</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base text-warna_1 py-2 mx-8 group-hover:text-warna_4">Contact</a>
+                            </li>
+                        </ul> 
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- NavBar Section End -->
+
+
+    <!-- Hero Section Start -->
+
+    <section id="home" class="pt-48 pb-44 bg-amber-50">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-amber-300 md:text-xl lg:text-2xl">Halo Semua 🙌, Saya <span class="block font-bold text-amber-500 text-4xl mt-1">Aditya Prayoga!</span></h1>
+                    <h2 class="font-bold text-sky-800 text-lg mb-2 lg:text-2xl">College Student</h2>
+                    <p class="font-medium text-sky-900 mb-10 leading-relaxed">It's better try something than not try at all.</p>
+
+                    <a href="https://www.instagram.com/aditprygaa_" class="text-base font-semibold text-white bg-sky-600 py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi Saya!</a>
+                    
+                </div>
+
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="relative mt-10 lg:mt-0 lg:right-0">
+                        <img src="./assets/img/profile-pics.png" alt="Aditya Prayoga"
+                        class="max-w-full mx-auto"/>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hero Section End -->
+
+
+    <!-- Portfolio Section Start -->
+
+    <section id="portfolio" class="pt-36 pb-16 bg-amber-100">
+        <div class="container">
+            <div class="w-full px-4">
+                <div class="max-w-xl mx-auto text-center mb-16">
+                    <h4 class="font-semibold text-lg text-sky-600 mb-2">Portfolio</h4>
+                    <p class="font-medium text-md text-warna_1">Saya selalu berusaha untuk meningkatkan diri dan portofolio saya adalah bukti nyata dari dedikasi saya. Hubungi saya untuk mendiskusikan proyek Anda berikutnya.</p>
+                    <br><br><h2 class="font-bold text-warna_2 text-3xl mb-4">Projects</h2>
+                </div>
+            </div>
+
+            <div class="w-full px-4 flex flex-wrap justify-center">
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden w-[595px] h-[290px]">
+                        <img src="./assets/img/projects/biodata.png" alt="Belajar PHP">
+                    </div>
+                    <h3 class="font-semibold text-xl text-warna_1 mt-5 mb-3">Membuat Biodata</h3>
+                    <p class="font-medium text-base text-warna_2">Pada proyek ini, saya mencoba untuk belajar membuat biodata saya.</p>
+                    <a href="./projects/Biodata/index.html" target="_blank" class="text-base font-semibold text-white bg-sky-600 py-1 px-2 mt-2 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out block text-center">Click Here!</a>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden w-[595px] h-[290px]">
+                        <img src="./assets/img/projects/belajar-php.png" alt="Belajar PHP">
+                    </div>
+                    <h3 class="font-semibold text-xl text-warna_1 mt-5 mb-3">Belajar PHP</h3>
+                    <p class="font-medium text-base text-warna_2">Pada proyek ini, saya mencoba untuk belajar dasar penggunaan PHP.</p>
+                    <a href="./projects/PW_4/index.html" target="_blank" class="text-base font-semibold text-white bg-sky-600 py-1 px-2 mt-2 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out block text-center">Click Here!</a>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden w-[595px] h-[290px]">
+                        <img src="./assets/img/projects/login-form.png" alt="Membuat Login Form">
+                    </div>
+                    <h3 class="font-semibold text-xl text-warna_1 mt-5 mb-3">Membuat Login Form</h3>
+                    <p class="font-medium text-base text-warna_2">Pada proyek ini, saya mencoba untuk belajar membuat form login, sekaligus belajar dasar untuk membuat basis data.</p>
+                    <a href="./projects/login_form/login.php" target="_blank" class="text-base font-semibold text-white bg-sky-600 py-1 px-2 mt-2 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out block text-center">Click Here!</a>
+                </div>
+
+                <div class="mb-12 p-4 md:w-1/2">
+                    <div class="rounded-md shadow-md overflow-hidden w-[595px] h-[290px]">
+                        <img src="./assets/img/projects/belajar-elemen-form.png" alt="Belajar Elemen Form">
+                    </div>
+                    <h3 class="font-semibold text-xl text-warna_1 mt-5 mb-3">Belajar Elemen Form</h3>
+                    <p class="font-medium text-base text-warna_2">Pada proyek ini, saya mencoba untuk belajar terkait elemen-elemen yang ada untuk membuat formulir.</p>
+                    <a href="./projects/PW5/exrcs.html" target="_blank" class="text-base font-semibold text-white bg-sky-600 py-1 px-2 mt-2 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out block text-center">Click Here!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section End -->
+<script src="./script/script.js"></script>
+</body>
+</html>
